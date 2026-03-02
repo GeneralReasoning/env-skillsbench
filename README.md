@@ -98,18 +98,20 @@ SkillsBench requires an OpenReward API key for sandbox access:
 - **api_key**: Required in secrets parameter for OpenReward sandbox API
 
 Some tasks may require additional API keys injected into the sandbox:
+- `OPENAI_API_KEY`: For tasks using OpenAI API
 - `ANTHROPIC_API_KEY`: For tasks using Claude API
 - `GH_AUTH_TOKEN`: For GitHub-based tasks
-- `OPENAI_API_KEY`: For tasks using OpenAI API
 
 Export and pass secrets:
 
 ```bash
-export OPENREWARD_API_KEY=your_api_key_here
+export OPENAI_API_KEY=your_openai_api_key
+export ANTHROPIC_API_KEY=your_anthropic_api_key
+export GH_AUTH_TOKEN=your_gh_auth_token
 ```
 
 ```python
-async with environment.session(task=task, secrets={"openai_api_key": OPENREWARD_API_KEY, "anthropic_api_key": ANTHROPIC_API_KEY, "gh_auth_token": GH_AUTH_TOKEN}) as session:
+async with environment.session(task=task, secrets={"openai_api_key": OPENAI_API_KEY, "anthropic_api_key": ANTHROPIC_API_KEY, "gh_auth_token": GH_AUTH_TOKEN}) as session:
 ```
 
 ## Safety
