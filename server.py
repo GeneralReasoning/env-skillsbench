@@ -86,7 +86,7 @@ def read_file(path: Path) -> str:
 
 
 IMAGE_PREFIX = "generalreasoning/env-skillsbench"
-ENVIRONMENT_NAME = "GeneralReasoning/skillsbench"
+ENVIRONMENT_NAME = "benchflow/skillsbench"
 SANDBOX_ENV: dict[str, str] = {'ANTHROPIC_API_KEY': '${ANTHROPIC_API_KEY}', 'GH_AUTH_TOKEN': '${GH_AUTH_TOKEN}', 'OPENAI_API_KEY': '${OPENAI_API_KEY}'}
 
 
