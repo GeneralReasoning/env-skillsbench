@@ -123,10 +123,13 @@ SkillsBench tasks are run in isolated Docker containers. Tasks involve computati
 This environment implements the SkillsBench benchmark. If you use this environment, please cite the original paper:
 
 ```bibtex
-@article{li2025skillsbench,
-  title     = {SkillsBench: Benchmarking How Well Agent Skills Work Across Diverse Tasks},
-  author    = {Li, Xiangyi and others},
-  journal   = {arXiv preprint arXiv:2602.12670},
-  year      = {2025}
+@misc{li2026skillsbenchbenchmarkingagentskills,
+      title={SkillsBench: Benchmarking How Well Agent Skills Work Across Diverse Tasks}, 
+      author={Xiangyi Li and Wenbo Chen and Yimin Liu and Shenghan Zheng and Xiaokun Chen and Yifeng He and Yubo Li and Bingran You and Haotian Shen and Jiankai Sun and Shuyi Wang and Binxu Li and Qunhong Zeng and Di Wang and Xuandong Zhao and Yuanli Wang and Roey Ben Chaim and Zonglin Di and Yipeng Gao and Junwei He and Yizhuo He and Liqiang Jing and Luyang Kong and Xin Lan and Jiachen Li and Songlin Li and Yijiang Li and Yueqian Lin and Xinyi Liu and Xuanqing Liu and Haoran Lyu and Ze Ma and Bowei Wang and Runhui Wang and Tianyu Wang and Wengao Ye and Yue Zhang and Hanwen Xing and Yiqi Xue and Steven Dillmann and Han-chung Lee},
+      year={2026},
+      eprint={2602.12670},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2602.12670}, 
 }
 ```
